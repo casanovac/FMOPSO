@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PruebaTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NTCalcWCTESTCoverage_GCOVR">
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 NTCalcWCTESTCoverage_GCOVR"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PruebaTest">
+				<Option output="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/PruebaTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/src"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 PruebaTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PruebaTest/fast">
+				<Option output="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/PruebaTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/src"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/test"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 PruebaTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NTCalcTEST">
+				<Option output="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcTEST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK=1"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/src"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/test"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 NTCalcTEST"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NTCalcTEST/fast">
+				<Option output="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcTEST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK=1"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/src"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/test"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 NTCalcTEST/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NTCalcTESTCoverage_LCOV">
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 NTCalcTESTCoverage_LCOV"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NTCalcWCTESTCoverage_LCOV">
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 NTCalcWCTESTCoverage_LCOV"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NTCalcTESTCoverage_GCOVR">
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 NTCalcTESTCoverage_GCOVR"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NTCalcWCTEST">
+				<Option output="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcWCTEST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK=1"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/src"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/test"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 NTCalcWCTEST"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NTCalcWCTEST/fast">
+				<Option output="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcWCTEST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carlos/CLionProjects/PruebaTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_TEST_DYN_LINK=1"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/src"/>
+					<Add directory="/home/carlos/CLionProjects/PruebaTest/test"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 NTCalcWCTEST/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/carlos/CLionProjects/PruebaTest/main.cpp">
+			<Option target="PruebaTest"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculator.cpp">
+			<Option target="PruebaTest"/>
+			<Option target="NTCalcTEST"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculator.h">
+			<Option target="PruebaTest"/>
+			<Option target="NTCalcTEST"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculatorWithContracts.cpp">
+			<Option target="PruebaTest"/>
+			<Option target="NTCalcWCTEST"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculatorWithContracts.h">
+			<Option target="PruebaTest"/>
+			<Option target="NTCalcWCTEST"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/PruebaTest/test/Test.cpp">
+			<Option target="NTCalcTEST"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/PruebaTest/test/TestContracts.cpp">
+			<Option target="NTCalcWCTEST"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/PruebaTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/PruebaTest/cmake-modules/CodeCoverage.cmake">
+			<Option virtualFolder="CMake Files\cmake-modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
