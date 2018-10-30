@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/carlos/CLionProjects/PruebaTest/main.cpp" "/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles/PruebaTest.dir/main.cpp.o"
-  "/home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculator.cpp" "/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.o"
-  "/home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculatorWithContracts.cpp" "/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.o"
+  "/home/carlos/CLionProjects/GIICIS/PruebaTest/main.cpp" "/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles/PruebaTest.dir/main.cpp.o"
+  "/home/carlos/CLionProjects/GIICIS/PruebaTest/src/NumberTheoryCalculator.cpp" "/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.o"
+  "/home/carlos/CLionProjects/GIICIS/PruebaTest/src/NumberTheoryCalculatorWithContracts.cpp" "/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

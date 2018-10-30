@@ -43,10 +43,10 @@ RM = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlos/CLionProjects/PruebaTest
+CMAKE_SOURCE_DIR = /home/carlos/CLionProjects/GIICIS/PruebaTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlos/CLionProjects/PruebaTest/cmake-build-debug
+CMAKE_BINARY_DIR = /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug
 
 # Utility rule file for NTCalcTESTCoverage_GCOVR.
 
@@ -54,10 +54,10 @@ CMAKE_BINARY_DIR = /home/carlos/CLionProjects/PruebaTest/cmake-build-debug
 include CMakeFiles/NTCalcTESTCoverage_GCOVR.dir/progress.make
 
 CMakeFiles/NTCalcTESTCoverage_GCOVR:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running gcovr to produce HTML code coverage report."
-	/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcTEST
-	/home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E make_directory /home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_GCOVR
-	/usr/bin/gcovr --html --html-details -r /home/carlos/CLionProjects/PruebaTest --object-directory=/home/carlos/CLionProjects/PruebaTest/cmake-build-debug -o NTCalcTESTCoverage_GCOVR/index.html
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running gcovr to produce HTML code coverage report."
+	/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTEST
+	/home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E make_directory /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_GCOVR
+	/usr/bin/gcovr --html --html-details -r /home/carlos/CLionProjects/GIICIS/PruebaTest --object-directory=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug -o NTCalcTESTCoverage_GCOVR/index.html
 
 NTCalcTESTCoverage_GCOVR: CMakeFiles/NTCalcTESTCoverage_GCOVR
 NTCalcTESTCoverage_GCOVR: CMakeFiles/NTCalcTESTCoverage_GCOVR.dir/build.make
@@ -74,6 +74,6 @@ CMakeFiles/NTCalcTESTCoverage_GCOVR.dir/clean:
 .PHONY : CMakeFiles/NTCalcTESTCoverage_GCOVR.dir/clean
 
 CMakeFiles/NTCalcTESTCoverage_GCOVR.dir/depend:
-	cd /home/carlos/CLionProjects/PruebaTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlos/CLionProjects/PruebaTest /home/carlos/CLionProjects/PruebaTest /home/carlos/CLionProjects/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles/NTCalcTESTCoverage_GCOVR.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlos/CLionProjects/GIICIS/PruebaTest /home/carlos/CLionProjects/GIICIS/PruebaTest /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles/NTCalcTESTCoverage_GCOVR.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NTCalcTESTCoverage_GCOVR.dir/depend
 

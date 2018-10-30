@@ -10,7 +10,7 @@
 
 class NumberTheoryCalculatorWithContracts {
 public:
-    NumberTheoryCalculatorWithContracts();
+    NumberTheoryCalculatorWithContracts() noexcept;
     int signo(int);
     int div(int, int);
     int mod(int, int);

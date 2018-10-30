@@ -43,10 +43,10 @@ RM = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlos/CLionProjects/PruebaTest
+CMAKE_SOURCE_DIR = /home/carlos/CLionProjects/GIICIS/PruebaTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlos/CLionProjects/PruebaTest/cmake-build-debug
+CMAKE_BINARY_DIR = /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PruebaTest.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/PruebaTest.dir/flags.make
 
 CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.o: CMakeFiles/PruebaTest.dir/flags.make
 CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.o: ../src/NumberTheoryCalculator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.o -c /home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.o -c /home/carlos/CLionProjects/GIICIS/PruebaTest/src/NumberTheoryCalculator.cpp
 
 CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculator.cpp > CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/CLionProjects/GIICIS/PruebaTest/src/NumberTheoryCalculator.cpp > CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.i
 
 CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculator.cpp -o CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/CLionProjects/GIICIS/PruebaTest/src/NumberTheoryCalculator.cpp -o CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculator.cpp.s
 
 CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.o: CMakeFiles/PruebaTest.dir/flags.make
 CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.o: ../src/NumberTheoryCalculatorWithContracts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.o -c /home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculatorWithContracts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.o -c /home/carlos/CLionProjects/GIICIS/PruebaTest/src/NumberTheoryCalculatorWithContracts.cpp
 
 CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculatorWithContracts.cpp > CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/CLionProjects/GIICIS/PruebaTest/src/NumberTheoryCalculatorWithContracts.cpp > CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.i
 
 CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/CLionProjects/PruebaTest/src/NumberTheoryCalculatorWithContracts.cpp -o CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/CLionProjects/GIICIS/PruebaTest/src/NumberTheoryCalculatorWithContracts.cpp -o CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cpp.s
 
 CMakeFiles/PruebaTest.dir/main.cpp.o: CMakeFiles/PruebaTest.dir/flags.make
 CMakeFiles/PruebaTest.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PruebaTest.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaTest.dir/main.cpp.o -c /home/carlos/CLionProjects/PruebaTest/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PruebaTest.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PruebaTest.dir/main.cpp.o -c /home/carlos/CLionProjects/GIICIS/PruebaTest/main.cpp
 
 CMakeFiles/PruebaTest.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PruebaTest.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/CLionProjects/PruebaTest/main.cpp > CMakeFiles/PruebaTest.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carlos/CLionProjects/GIICIS/PruebaTest/main.cpp > CMakeFiles/PruebaTest.dir/main.cpp.i
 
 CMakeFiles/PruebaTest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PruebaTest.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/CLionProjects/PruebaTest/main.cpp -o CMakeFiles/PruebaTest.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carlos/CLionProjects/GIICIS/PruebaTest/main.cpp -o CMakeFiles/PruebaTest.dir/main.cpp.s
 
 # Object files for target PruebaTest
 PruebaTest_OBJECTS = \
@@ -110,7 +110,7 @@ PruebaTest: CMakeFiles/PruebaTest.dir/src/NumberTheoryCalculatorWithContracts.cp
 PruebaTest: CMakeFiles/PruebaTest.dir/main.cpp.o
 PruebaTest: CMakeFiles/PruebaTest.dir/build.make
 PruebaTest: CMakeFiles/PruebaTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PruebaTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PruebaTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PruebaTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/PruebaTest.dir/clean:
 .PHONY : CMakeFiles/PruebaTest.dir/clean
 
 CMakeFiles/PruebaTest.dir/depend:
-	cd /home/carlos/CLionProjects/PruebaTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlos/CLionProjects/PruebaTest /home/carlos/CLionProjects/PruebaTest /home/carlos/CLionProjects/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles/PruebaTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlos/CLionProjects/GIICIS/PruebaTest /home/carlos/CLionProjects/GIICIS/PruebaTest /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles/PruebaTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PruebaTest.dir/depend
 

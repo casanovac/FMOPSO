@@ -6,5 +6,5 @@ CXX_FLAGS = -g -O0 -Wall --coverage -g -O0 --coverage -fprofile-arcs -ftest-cove
 
 CXX_DEFINES = -DBOOST_TEST_DYN_LINK=1
 
-CXX_INCLUDES = -I/home/carlos/CLionProjects/PruebaTest/src -I/home/carlos/CLionProjects/PruebaTest/test -I/usr/local/include 
+CXX_INCLUDES = -I/home/carlos/CLionProjects/GIICIS/PruebaTest/src -I/home/carlos/CLionProjects/GIICIS/PruebaTest/test -I/usr/local/include 
 

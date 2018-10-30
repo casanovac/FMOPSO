@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.12)
 project(PruebaTest)
 
 set(CMAKE_CXX_STANDARD 14)
-SET(CMAKE_CXX_FLAGS "-g -O0 -Wall --coverage")
-#SET(CMAKE_CXX_FLAGS "-g -O0 -Wall -fprofile-arcs -ftest-coverage")
+set(CMAKE_CXX_FLAGS "-g -O0 -Wall --coverage")
+#set(CMAKE_CXX_FLAGS "-g -O0 -Wall -fprofile-arcs -ftest-coverage")
 
 include(cmake-modules/CodeCoverage.cmake)
 APPEND_COVERAGE_COMPILER_FLAGS()
@@ -12,7 +12,7 @@ set(COVERAGE_LCOV_EXCLUDES 'cmake-build-debug/*' 'cmake-modules/*' '*7*' '*boost
 include_directories(src)
 include_directories(test)
 
-set(BOOST_INCLUDE_DIRS /home/carlos/Instaladores/boost_1_68_0)
+set(BOOST_INCLUDE_DIRS ../boost_1_68_0)
 
 add_executable(PruebaTest
         src/NumberTheoryCalculator.cpp
@@ -23,7 +23,7 @@ add_executable(PruebaTest
 
 enable_testing()
 
-link_directories(/home/carlos/Instaladores/boost_1_68_0/stage/lib/)
+link_directories(../boost_1_68_0/stage/lib/)
 
 add_executable(NTCalcTEST test/Test.cpp src/NumberTheoryCalculator.cpp src/NumberTheoryCalculator.h)
 

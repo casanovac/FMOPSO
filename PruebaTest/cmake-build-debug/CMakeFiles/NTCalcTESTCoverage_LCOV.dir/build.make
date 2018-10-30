@@ -43,10 +43,10 @@ RM = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carlos/CLionProjects/PruebaTest
+CMAKE_SOURCE_DIR = /home/carlos/CLionProjects/GIICIS/PruebaTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carlos/CLionProjects/PruebaTest/cmake-build-debug
+CMAKE_BINARY_DIR = /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug
 
 # Utility rule file for NTCalcTESTCoverage_LCOV.
 
@@ -54,16 +54,16 @@ CMAKE_BINARY_DIR = /home/carlos/CLionProjects/PruebaTest/cmake-build-debug
 include CMakeFiles/NTCalcTESTCoverage_LCOV.dir/progress.make
 
 CMakeFiles/NTCalcTESTCoverage_LCOV:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Resetting code coverage counters to zero."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Resetting code coverage counters to zero."
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Processing code coverage counters and generating report."
 	/usr/bin/lcov --gcov-tool /usr/bin/gcov -directory . --zerocounters
 	/usr/bin/lcov --gcov-tool /usr/bin/gcov -c -i -d . -o NTCalcTESTCoverage_LCOV.base
-	/home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcTEST
+	/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTEST
 	/usr/bin/lcov --gcov-tool /usr/bin/gcov --directory . --capture --output-file NTCalcTESTCoverage_LCOV.info
 	/usr/bin/lcov --gcov-tool /usr/bin/gcov -a NTCalcTESTCoverage_LCOV.base -a NTCalcTESTCoverage_LCOV.info --output-file NTCalcTESTCoverage_LCOV.total
-	/usr/bin/lcov --gcov-tool /usr/bin/gcov --remove NTCalcTESTCoverage_LCOV.total 'cmake-build-debug/*' 'cmake-modules/*' '*7*' '*boost*' --output-file /home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
-	/usr/bin/genhtml -o NTCalcTESTCoverage_LCOV /home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
-	/home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E remove NTCalcTESTCoverage_LCOV.base NTCalcTESTCoverage_LCOV.total /home/carlos/CLionProjects/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
+	/usr/bin/lcov --gcov-tool /usr/bin/gcov --remove NTCalcTESTCoverage_LCOV.total 'cmake-build-debug/*' 'cmake-modules/*' '*7*' '*boost*' --output-file /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
+	/usr/bin/genhtml -o NTCalcTESTCoverage_LCOV /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
+	/home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E remove NTCalcTESTCoverage_LCOV.base NTCalcTESTCoverage_LCOV.total /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
 
 NTCalcTESTCoverage_LCOV: CMakeFiles/NTCalcTESTCoverage_LCOV
 NTCalcTESTCoverage_LCOV: CMakeFiles/NTCalcTESTCoverage_LCOV.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/NTCalcTESTCoverage_LCOV.dir/clean:
 .PHONY : CMakeFiles/NTCalcTESTCoverage_LCOV.dir/clean
 
 CMakeFiles/NTCalcTESTCoverage_LCOV.dir/depend:
-	cd /home/carlos/CLionProjects/PruebaTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlos/CLionProjects/PruebaTest /home/carlos/CLionProjects/PruebaTest /home/carlos/CLionProjects/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/PruebaTest/cmake-build-debug/CMakeFiles/NTCalcTESTCoverage_LCOV.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carlos/CLionProjects/GIICIS/PruebaTest /home/carlos/CLionProjects/GIICIS/PruebaTest /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles/NTCalcTESTCoverage_LCOV.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NTCalcTESTCoverage_LCOV.dir/depend
 

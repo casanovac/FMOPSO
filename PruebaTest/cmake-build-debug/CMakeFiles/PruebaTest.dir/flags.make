@@ -6,5 +6,5 @@ CXX_FLAGS = -g -O0 -Wall --coverage -g -O0 --coverage -fprofile-arcs -ftest-cove
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/carlos/CLionProjects/PruebaTest/src -I/home/carlos/CLionProjects/PruebaTest/test 
+CXX_INCLUDES = -I/home/carlos/CLionProjects/GIICIS/PruebaTest/src -I/home/carlos/CLionProjects/GIICIS/PruebaTest/test 
 
