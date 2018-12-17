@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/liblQueen.a  CMakeFiles/lQueen.dir/queenEval.cpp.o
+/usr/bin/ranlib ../lib/liblQueen.a

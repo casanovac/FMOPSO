@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="projectName"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\module\;CMake Files\doc\;CMake Files\src\;CMake Files\test\;CMake Files\application\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc">
+				<Option working_dir="/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/doc/Makefile&quot;  VERBOSE=1 doc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MAIN">
+				<Option output="/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/MAIN" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_VERBOSE_MAKEFILE=ON"/>
+					<Add option="-DDEPRECATED_MESSAGES"/>
+					<Add directory="/usr/local/include/paradiseo/eo"/>
+					<Add directory="/usr/local/include/paradiseo/mo"/>
+					<Add directory="/usr/local/include/paradiseo/moeo"/>
+					<Add directory="/home/carlos/CLionProjects/QuickStart/MyProject/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 MAIN"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MAIN/fast">
+				<Option output="/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/MAIN" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE_VERBOSE_MAKEFILE=ON"/>
+					<Add option="-DDEPRECATED_MESSAGES"/>
+					<Add directory="/usr/local/include/paradiseo/eo"/>
+					<Add directory="/usr/local/include/paradiseo/mo"/>
+					<Add directory="/usr/local/include/paradiseo/moeo"/>
+					<Add directory="/home/carlos/CLionProjects/QuickStart/MyProject/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 MAIN/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/carlos/CLionProjects/QuickStart/MyProject/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/carlos/CLionProjects/QuickStart/MyProject/application/main.cpp">
+			<Option target="MAIN"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/QuickStart/MyProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/QuickStart/MyProject/cmake/module/FindParadiseo.cmake">
+			<Option virtualFolder="CMake Files\cmake\module\"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/QuickStart/MyProject/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/QuickStart/MyProject/doc/doxyfile.cmake">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/QuickStart/MyProject/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/QuickStart/MyProject/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/carlos/CLionProjects/QuickStart/MyProject/application/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\application\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

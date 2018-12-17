@@ -1,0 +1,14 @@
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/src/CMakeFiles/lQueen.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/application/CMakeFiles/rebuild_cache.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/application/CMakeFiles/edit_cache.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/application/CMakeFiles/tryEval.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/application/CMakeFiles/solveQueen.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/application/CMakeFiles/tryInit.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/application/CMakeFiles/tryMutation.dir
+/home/carlos/CLionProjects/GIICIS/QUEEN/cmake-build-debug/application/CMakeFiles/tryCrossover.dir

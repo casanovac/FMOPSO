@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/testSimpleTS.dir/testSimpleTS.cpp.o  -o testSimpleTS ../../../eo/lib/libeoutils.a ../../../eo/lib/libga.a ../../../eo/lib/libeo.a 

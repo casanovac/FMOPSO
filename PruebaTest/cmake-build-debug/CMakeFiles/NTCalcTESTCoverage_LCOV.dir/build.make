@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4284.156/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4284.156/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -56,14 +56,14 @@ include CMakeFiles/NTCalcTESTCoverage_LCOV.dir/progress.make
 CMakeFiles/NTCalcTESTCoverage_LCOV:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Resetting code coverage counters to zero."
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Processing code coverage counters and generating report."
-	/usr/bin/lcov --gcov-tool /usr/bin/gcov -directory . --zerocounters
-	/usr/bin/lcov --gcov-tool /usr/bin/gcov -c -i -d . -o NTCalcTESTCoverage_LCOV.base
+	/usr/bin/lcov --gcov-tool /usr/bin/gcov -directory . --zerocounters --rc lcov_branch_coverage=1
+	/usr/bin/lcov --gcov-tool /usr/bin/gcov -c -i -d . -o NTCalcTESTCoverage_LCOV.base --rc lcov_branch_coverage=1
 	/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTEST
-	/usr/bin/lcov --gcov-tool /usr/bin/gcov --directory . --capture --output-file NTCalcTESTCoverage_LCOV.info
-	/usr/bin/lcov --gcov-tool /usr/bin/gcov -a NTCalcTESTCoverage_LCOV.base -a NTCalcTESTCoverage_LCOV.info --output-file NTCalcTESTCoverage_LCOV.total
-	/usr/bin/lcov --gcov-tool /usr/bin/gcov --remove NTCalcTESTCoverage_LCOV.total 'cmake-build-debug/*' 'cmake-modules/*' '*7*' '*boost*' --output-file /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
-	/usr/bin/genhtml -o NTCalcTESTCoverage_LCOV /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
-	/home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E remove NTCalcTESTCoverage_LCOV.base NTCalcTESTCoverage_LCOV.total /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
+	/usr/bin/lcov --gcov-tool /usr/bin/gcov --directory . --capture --output-file NTCalcTESTCoverage_LCOV.info --rc lcov_branch_coverage=1
+	/usr/bin/lcov --gcov-tool /usr/bin/gcov -a NTCalcTESTCoverage_LCOV.base -a NTCalcTESTCoverage_LCOV.info --output-file NTCalcTESTCoverage_LCOV.total --rc lcov_branch_coverage=1
+	/usr/bin/lcov --gcov-tool /usr/bin/gcov --remove NTCalcTESTCoverage_LCOV.total 'cmake-build-debug/*' 'cmake-modules/*' '*7*' '*boost*' --output-file /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned --rc lcov_branch_coverage=1
+	/usr/bin/genhtml -o NTCalcTESTCoverage_LCOV /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned --rc lcov_branch_coverage=1
+	/home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4284.156/bin/cmake/linux/bin/cmake -E remove NTCalcTESTCoverage_LCOV.base NTCalcTESTCoverage_LCOV.total /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcTESTCoverage_LCOV.info.cleaned
 
 NTCalcTESTCoverage_LCOV: CMakeFiles/NTCalcTESTCoverage_LCOV
 NTCalcTESTCoverage_LCOV: CMakeFiles/NTCalcTESTCoverage_LCOV.dir/build.make

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/lesson1_eoEasyEA.dir/lesson1_eoEasyEA.cpp.o  -o lesson1_eoEasyEA ../../lib/libsmp.a ../../../eo/lib/libeo.a ../../../eo/lib/libeoutils.a 

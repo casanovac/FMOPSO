@@ -1,0 +1,15 @@
+
+### GENERAL ########################################################################
+# --help=0                                 # -h : Prints this message
+# --stopOnUnknownParam=1                   # Stop if unkown param entered
+# --seed=1542153188                        # -S : Random number seed
+
+### PERSISTENCE ####################################################################
+# --status=/home/carlos/CLionProjects/QUEEN/cmake-build-debug/application/solveQueen.status # Status file
+
+### REPRESENTATION #################################################################
+# --vecSize=128                            # -V : Genotype size
+
+### SEARCH PARAMETERS ##############################################################
+# --sizeTabuList=57                        # -T : size of the tabu list
+# --timeLimit=51                           # -T : time limits

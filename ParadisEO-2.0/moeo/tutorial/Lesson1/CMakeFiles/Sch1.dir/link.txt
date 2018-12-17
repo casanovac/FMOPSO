@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/Sch1.dir/Sch1.cpp.o  -o Sch1 ../../../eo/lib/libeoutils.a ../../../eo/lib/libga.a ../../../eo/lib/libeo.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/t-smpThread.dir/t-smpThread.cpp.o  -o t-smpThread ../lib/libsmp.a ../../eo/lib/libeo.a ../../eo/lib/libeoutils.a 

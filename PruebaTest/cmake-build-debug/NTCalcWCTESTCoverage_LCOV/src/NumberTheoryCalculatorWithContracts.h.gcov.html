@@ -37,12 +37,21 @@
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2018-10-29 21:26:25</td>
+            <td class="headerValue">2018-10-31 16:40:43</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">2</td>
             <td class="headerCovTableEntry">3</td>
             <td class="headerCovTableEntryLo">66.7 %</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="headerItem">Branches:</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntry">0</td>
+            <td class="headerCovTableEntryHi">-</td>
           </tr>
           <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
         </table>
@@ -58,31 +67,31 @@
     </tr>
     <tr>
       <td>
-<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="sourceHeading">           Branch data     Line data    Source code</pre>
 <pre class="source">
-<a name="1"><span class="lineNum">       1 </span>            : /*</a>
-<span class="lineNum">       2 </span>            :  * NumberTheoryCalculator.h
-<span class="lineNum">       3 </span>            :  *
-<span class="lineNum">       4 </span>            :  *  Created on: 18 oct. 2018
-<span class="lineNum">       5 </span>            :  *      Author: carlos
-<span class="lineNum">       6 </span>            :  */
-<span class="lineNum">       7 </span>            : 
-<span class="lineNum">       8 </span>            : #ifndef NUMBERTHEORYCALCULATORWITHCONTRACTS_H_
-<a name="9"><span class="lineNum">       9 </span>            : #define NUMBERTHEORYCALCULATORWITHCONTRACTS_H_</a>
-<span class="lineNum">      10 </span>            : 
-<span class="lineNum">      11 </span><span class="lineCov">         60 : class NumberTheoryCalculatorWithContracts {</span>
-<span class="lineNum">      12 </span>            : public:
-<span class="lineNum">      13 </span>            :     NumberTheoryCalculatorWithContracts();
-<span class="lineNum">      14 </span>            :     int signo(int);
-<span class="lineNum">      15 </span>            :     int div(int, int);
-<span class="lineNum">      16 </span>            :     int mod(int, int);
-<span class="lineNum">      17 </span>            :     int mcd(int, int);
-<span class="lineNum">      18 </span>            :     int mcm(int, int);
-<span class="lineNum">      19 </span>            :     bool divisible(int, int);
-<span class="lineNum">      20 </span>            :     virtual ~NumberTheoryCalculatorWithContracts();
-<span class="lineNum">      21 </span>            : };
-<span class="lineNum">      22 </span>            : 
-<span class="lineNum">      23 </span>            : #endif /* NUMBERTHEORYCALCULATORWITHCONTRACTS_H_ */
+<a name="1"><span class="lineNum">       1 </span>                :            : /*</a>
+<span class="lineNum">       2 </span>                :            :  * NumberTheoryCalculator.h
+<span class="lineNum">       3 </span>                :            :  *
+<span class="lineNum">       4 </span>                :            :  *  Created on: 18 oct. 2018
+<span class="lineNum">       5 </span>                :            :  *      Author: carlos
+<span class="lineNum">       6 </span>                :            :  */
+<span class="lineNum">       7 </span>                :            : 
+<span class="lineNum">       8 </span>                :            : #ifndef NUMBERTHEORYCALCULATORWITHCONTRACTS_H_
+<a name="9"><span class="lineNum">       9 </span>                :            : #define NUMBERTHEORYCALCULATORWITHCONTRACTS_H_</a>
+<span class="lineNum">      10 </span>                :            : 
+<span class="lineNum">      11 </span>                :<span class="lineCov">         60 : class NumberTheoryCalculatorWithContracts {</span>
+<span class="lineNum">      12 </span>                :            : public:
+<span class="lineNum">      13 </span>                :            :     NumberTheoryCalculatorWithContracts() noexcept;
+<span class="lineNum">      14 </span>                :            :     int signo(int);
+<span class="lineNum">      15 </span>                :            :     int div(int, int);
+<span class="lineNum">      16 </span>                :            :     int mod(int, int);
+<span class="lineNum">      17 </span>                :            :     int mcd(int, int);
+<span class="lineNum">      18 </span>                :            :     int mcm(int, int);
+<span class="lineNum">      19 </span>                :            :     bool divisible(int, int);
+<span class="lineNum">      20 </span>                :            :     virtual ~NumberTheoryCalculatorWithContracts();
+<span class="lineNum">      21 </span>                :            : };
+<span class="lineNum">      22 </span>                :            : 
+<span class="lineNum">      23 </span>                :            : #endif /* NUMBERTHEORYCALCULATORWITHCONTRACTS_H_ */
 </pre>
       </td>
     </tr>

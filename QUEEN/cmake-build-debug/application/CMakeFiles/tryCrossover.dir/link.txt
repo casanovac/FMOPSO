@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/tryCrossover.dir/tryCrossover.cpp.o  -o tryCrossover /usr/local/lib64/libeoutils.a /usr/local/lib64/libeo.a ../lib/liblQueen.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/VNS.dir/VNS.cpp.o  -o VNS ../../../eo/lib/libeoutils.a ../../../eo/lib/libga.a ../../../eo/lib/libeo.a 

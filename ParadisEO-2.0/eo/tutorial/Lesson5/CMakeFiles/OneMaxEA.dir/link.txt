@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/OneMaxEA.dir/OneMaxEA.cpp.o  -o OneMaxEA-.  -L/home/carlos/Instaladores/ParadisEO-2.0/build/eo/lib -Wl,-rpath,/home/carlos/Instaladores/ParadisEO-2.0/build/eo/lib: ../../lib/libes.a ../../lib/libga.a ../../lib/libeo.a ../../lib/libeoutils.a 

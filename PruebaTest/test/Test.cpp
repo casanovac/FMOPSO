@@ -32,10 +32,12 @@ const int sign_results[] = {0, 1, -1};
 
     BOOST_AUTO_TEST_CASE(check_correct_div_positive_positive)
     {
+        // ARRANGE
         NumberTheoryCalculator calc;
         int a = 15;
         int b = 4;
 
+        // ACT & ASSERT
         BOOST_CHECK_EQUAL(calc.div(a,b), 3);
     }
 

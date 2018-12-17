@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/PruebaTest">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/Bi-objectiveNRP">
     <contentRoot DIR="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd" location="$PROJECT_DIR$" />
+  </component>
+  <component name="PyPackaging">
+    <option name="earlyReleasesAsUpgrades" value="true" />
   </component>
 </project>

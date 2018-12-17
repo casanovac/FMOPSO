@@ -1,0 +1,19 @@
+
+### GENERAL ########################################################################
+# --help=0                                 # -h : Prints this message
+# --stopOnUnknownParam=1                   # Stop if unkown param entered
+
+### FMOPSO PARAMS ##################################################################
+--filas=100                               # -F : Filas del arreglo bidimensional de partículas del FMOPSO
+--columnas=100                            # -C : Columnas del arreglo bidimensional de partículas del FMOPSO
+--max_time=30                           # -T : Tiempo máximo a correr el algoritmo en segundos (s)
+
+### NRP INSTANCE PARAMS ############################################################
+--instance_filename=nrp2.txt             # -I : Nombre del archivo que contiene la instancia NRP a resolver
+--min_profit=0                           # -p : Mínimo beneficio del frente
+--max_profit=2909                        # -P : Máximo beneficio del frente
+--min_cost=0                             # -c : Mínimo costo del frente
+--max_cost=787                           # -C : Máximo costo del frente
+
+### PERSISTENCE ####################################################################
+# --status=/home/carlos/CLionProjects/QuickStart/Bi-objectiveNRP/cmake-build-debug/application/BiObjNRP_FMOPSO.status # -S : Status file

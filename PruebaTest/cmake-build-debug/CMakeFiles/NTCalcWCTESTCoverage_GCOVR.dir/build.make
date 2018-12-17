@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4284.156/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4284.156/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -56,7 +56,7 @@ include CMakeFiles/NTCalcWCTESTCoverage_GCOVR.dir/progress.make
 CMakeFiles/NTCalcWCTESTCoverage_GCOVR:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running gcovr to produce HTML code coverage report."
 	/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcWCTEST
-	/home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24/bin/cmake/linux/bin/cmake -E make_directory /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcWCTESTCoverage_GCOVR
+	/home/carlos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4284.156/bin/cmake/linux/bin/cmake -E make_directory /home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug/NTCalcWCTESTCoverage_GCOVR
 	/usr/bin/gcovr --html --html-details -r /home/carlos/CLionProjects/GIICIS/PruebaTest --object-directory=/home/carlos/CLionProjects/GIICIS/PruebaTest/cmake-build-debug -o NTCalcWCTESTCoverage_GCOVR/index.html
 
 NTCalcWCTESTCoverage_GCOVR: CMakeFiles/NTCalcWCTESTCoverage_GCOVR
