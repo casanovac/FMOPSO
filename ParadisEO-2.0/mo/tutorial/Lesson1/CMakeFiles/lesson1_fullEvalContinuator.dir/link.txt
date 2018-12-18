@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/lesson1_fullEvalContinuator.dir/lesson1_fullEvalContinuator.cpp.o  -o lesson1_fullEvalContinuator ../../../eo/lib/libeoutils.a ../../../eo/lib/libga.a ../../../eo/lib/libeo.a 

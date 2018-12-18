@@ -1,2 +1,0 @@
-/usr/bin/ar qc lib/libflowshop.a  CMakeFiles/flowshop.dir/FlowShopBenchmarkParser.cpp.o CMakeFiles/flowshop.dir/FlowShopEval.cpp.o CMakeFiles/flowshop.dir/FlowShopObjectiveVectorTraits.cpp.o CMakeFiles/flowshop.dir/FlowShopOpCrossoverQuad.cpp.o CMakeFiles/flowshop.dir/FlowShop.cpp.o
-/usr/bin/ranlib lib/libflowshop.a

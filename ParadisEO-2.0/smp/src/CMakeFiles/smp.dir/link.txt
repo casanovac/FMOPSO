@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libsmp.a  CMakeFiles/smp.dir/thread.cpp.o
-/usr/bin/ranlib ../lib/libsmp.a

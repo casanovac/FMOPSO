@@ -1,1 +1,0 @@
-/usr/bin/c++   -fopenmp -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/exercise2.3.dir/exercise2.3.cpp.o  -o exercise2.3-.  -L/home/carlos/Instaladores/ParadisEO-2.0/build/eo/lib -Wl,-rpath,/home/carlos/Instaladores/ParadisEO-2.0/build/eo/lib: ../../lib/libga.a ../../lib/libeo.a ../../lib/libeoutils.a 

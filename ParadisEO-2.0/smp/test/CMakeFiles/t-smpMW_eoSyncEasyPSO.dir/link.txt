@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/t-smpMW_eoSyncEasyPSO.dir/t-smpMW_eoSyncEasyPSO.cpp.o  -o t-smpMW_eoSyncEasyPSO ../lib/libsmp.a ../../eo/lib/libeo.a ../../eo/lib/libeoutils.a 

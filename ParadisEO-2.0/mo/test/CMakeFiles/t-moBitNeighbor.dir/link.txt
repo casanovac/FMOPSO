@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/t-moBitNeighbor.dir/t-moBitNeighbor.cpp.o  -o t-moBitNeighbor ../../eo/lib/libga.a ../../eo/lib/libes.a ../../eo/lib/libeoutils.a ../../eo/lib/libeo.a 

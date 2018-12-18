@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/t-moStatistics.dir/t-moStatistics.cpp.o  -o t-moStatistics ../../eo/lib/libga.a ../../eo/lib/libes.a ../../eo/lib/libeoutils.a ../../eo/lib/libeo.a 

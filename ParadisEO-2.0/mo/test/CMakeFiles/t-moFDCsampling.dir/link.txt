@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wunknown-pragmas -O2 -std=c++11 -pthread  -rdynamic CMakeFiles/t-moFDCsampling.dir/t-moFDCsampling.cpp.o  -o t-moFDCsampling ../../eo/lib/libga.a ../../eo/lib/libes.a ../../eo/lib/libeoutils.a ../../eo/lib/libeo.a 
