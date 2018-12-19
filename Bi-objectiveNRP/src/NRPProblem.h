@@ -25,59 +25,55 @@ public:
     // TODO: check if fileName is valid
     void load(std::string fileName)
     {
-        std::ifstream nrp1;
+        std::ifstream file;
         std::string line;
-        nrp1.open (fileName);
-        int t;
-        nrp1 >> t;
+        file.open (fileName);
 
-        //Armado del vector de requerimientos
-        for (int i=0; i<t; i++)
+        //Build requirements' vector
+        int n_levels;           // Number of levels
+        int n_req;              // Number of requirements in each level
+        int cost;               // Cost for each requirement
+        file >> n_levels;
+        for (int lvl=0; lvl<n_levels; lvl++)
         {
-            int actualvl;
-            nrp1 >> actualvl;
-            for (int j=0; j<actualvl; j++)
+            file >> n_req;
+            for (int req=0; req<n_req; req++)
             {
-                int actualcost;
-                nrp1 >> actualcost;
-                this->requirementsCost.push_back(actualcost);
+                file >> cost;
+                this->requirementsCost.push_back(cost);
             }
         }
 
-        //Armado del arreglo de pares con relaciones de precedencia
-        unsigned int cantdp;
-        nrp1 >> cantdp;
-
-        for (int dep1 = 0; dep1<cantdp; dep1++)
+        //Build dependencies' pairs vector
+        unsigned int n_dependencies;    // Number of dependencies
+        int req1, req2;                 // Pair of requirements
+        file >> n_dependencies;
+        for (int dep = 0; dep<n_dependencies; dep++)
         {
-            int r1, r2;
-            nrp1 >> r1 >> r2;
-            std::pair <int,int> par =  std::make_pair(r1 - 1, r2 - 1);
-            this->precedenceRelation.insert(par);
+            file >> req1 >> req2;
+            std::pair <int,int> pair =  std::make_pair(req1 - 1, req2 - 1);
+            this->precedenceRelation.insert(pair);
         }
 
-        //Armado del vector de customers
-        unsigned int cantcustomers;
-        nrp1 >> cantcustomers;
+        // Build customers' vector
 
-        for (int customer = 0; customer<cantcustomers; customer++)
+        unsigned int n_customers; // Number of customers
+        double profit;            // Profit provided by each customer if their requirements are satisfied
+        int n_demand;             // Amount of requirements demanded by the current customer
+        int demanded_req;         // Loop variable for each requirement demanded by the current customer
+        file >> n_customers;
+        for (int customer = 0; customer<n_customers; customer++)
         {
-            double profit;
-            nrp1 >> profit;    //Agrego el valor de profit
+            file >> profit;
             this->customersProfit.push_back(profit);
-            int cantReqs;                                        //Defino esta variable para no perder el valor del request
-            nrp1 >> cantReqs;
-
-            for (int posVRL=0; posVRL < cantReqs; posVRL++)     //Defino el vector
+            file >> n_demand;
+            for (int posVRL=0; posVRL < n_demand; posVRL++)
             {
-                int req;
-                nrp1 >> req;
-                this->interestRelation.insert(std::make_pair(customer, req - 1));
-
+                file >> demanded_req;
+                this->interestRelation.insert(std::make_pair(customer, demanded_req - 1));
             }
         }
-
-        nrp1.close();
+        file.close();
     }
 
     const std::vector<double> &getRequirementsCost() const {
