@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
     }
 
     NRPProblem instance;
-    instance.load("nrp1.txt");
+    instance.load(instance_filename);
     instance.printOn(std::cout);
 
     PartiallyOrderedSetFlight<MOBinaryParticle<BiObjNRPObjectiveVector>> flight(instance.getPrecedenceRelation());
@@ -96,7 +96,7 @@ int main(int argc, char *argv[])
     eoVelocityInitFixedLength<MOBinaryParticle<BiObjNRPObjectiveVector> > veloRandom(
             instance.getRequirementsCost().size(), sGen);
 
-    BiObjNRPMOEval<moeoBitVector<BiObjNRPObjectiveVector>> eval("nrp1.txt");
+    BiObjNRPMOEval<moeoBitVector<BiObjNRPObjectiveVector>> eval(instance_filename);
 
 // Inicializamos a mano las velocidades y las aplicamos con flight
     for (unsigned int i = 0; i < number_of_individuals; i++)
@@ -128,7 +128,7 @@ int main(int argc, char *argv[])
     std::cout << std::endl;
 
     std::vector<BiObjNRPObjectiveVector> completeFront;
-    for (moeoBitVector<BiObjNRPObjectiveVector> individual: pop)
+    for (moeoBitVector<BiObjNRPObjectiveVector> individual: arch)
     {
         std::cout << individual.objectiveVector() << ";" << std::endl;
         completeFront.push_back(individual.objectiveVector());
@@ -165,4 +165,5 @@ int main(int argc, char *argv[])
 
     std::cout << "HV\t\t\tPFS" << std::endl;
     std::cout << hypervolume00(completeFront) << "\t" << arch.size() << std::endl;
+
 }

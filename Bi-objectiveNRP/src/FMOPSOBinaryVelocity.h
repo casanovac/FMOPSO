@@ -68,6 +68,7 @@ public:
 
         bool newVelocity;
         bool anyTrue = false;
+
         for (unsigned j = 0; j < _po.size (); j++)
         {
             r1 = BinaryVelocity<POT>::bool_gen();

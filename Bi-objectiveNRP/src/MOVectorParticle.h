@@ -19,6 +19,8 @@ public:
     using eoVectorParticle<MOEOFitness, PositionType, VelocityType>::begin;
     using eoVectorParticle<MOEOFitness, PositionType, VelocityType>::end;
     using MOEO<MOEOObjectiveVector, MOEOFitness, MOEODiversity>::ObjectiveVector;
+    using MOEO<MOEOObjectiveVector, MOEOFitness, MOEODiversity>::objectiveVector;
+    using eoVectorParticle<MOEOFitness, PositionType, VelocityType>::position;
 
 
     /**

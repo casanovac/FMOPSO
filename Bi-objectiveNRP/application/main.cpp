@@ -26,10 +26,10 @@
 #include <core/moeoBitVector.h>
 #include <archive/moeoUnboundedArchive.h>
 
-#define FILAS 25
-#define COLUMNAS 25
+#define FILAS 50
+#define COLUMNAS 50
 #define N FILAS*COLUMNAS
-#define GEN 100
+#define GEN 120
 
 int main(int argc, char* argv[])
 {

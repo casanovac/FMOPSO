@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
     }
 
     NRPProblem instance;
-    instance.load("nrp1.txt");
+    instance.load(instance_filename);
     instance.printOn(std::cout);
 
     PartiallyOrderedSetFlight<MOBinaryParticle<BiObjNRPObjectiveVector>> flight(instance.getPrecedenceRelation());
@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
     eoVelocityInitFixedLength<MOBinaryParticle<BiObjNRPObjectiveVector> > veloRandom(
             instance.getRequirementsCost().size(), sGen);
 
-    BiObjNRPMOEval<moeoBitVector<BiObjNRPObjectiveVector>> eval("nrp1.txt");
+    BiObjNRPMOEval<moeoBitVector<BiObjNRPObjectiveVector>> eval(instance_filename);
 
 // Inicializamos a mano las velocidades y las aplicamos con flight
     for (unsigned int i = 0; i < number_of_individuals; i++)
@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
     std::cout << std::endl;
 
     std::vector<BiObjNRPObjectiveVector> completeFront;
-    for (moeoBitVector<BiObjNRPObjectiveVector> individual: pop)
+    for (moeoBitVector<BiObjNRPObjectiveVector> individual: arch)
     {
         std::cout << individual.objectiveVector() << ";" << std::endl;
         completeFront.push_back(individual.objectiveVector());
@@ -136,6 +136,8 @@ int main(int argc, char *argv[])
     leftRef.push_back(min_cost);
     rightRef.push_back(max_profit);
     rightRef.push_back(max_cost);
+
+    std::cout << max_profit << std::endl;
 
     std::vector<eoRealInterval> bounds(2);
     for (unsigned i = 0; i < 2; i++)
