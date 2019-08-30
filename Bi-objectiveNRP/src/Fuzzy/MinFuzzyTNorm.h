@@ -21,7 +21,7 @@
 #define BI_OBJECTIVENRP_MINFUZZYTNORM_H
 
 
-#include "AbstractFuzzyTNorm.h"
+#include "Fuzzy/AbstractFuzzyTNorm.h"
 
 class MinFuzzyTNorm : public AbstractFuzzyTNorm{
 public:

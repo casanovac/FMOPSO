@@ -22,8 +22,8 @@
 
 
 #include <cmath>
-#include "FuzzyNumber.h"
-#include "LinearMonotonicFuzzyNumber.h"
+#include "Fuzzy/FuzzyNumber.h"
+#include "Fuzzy/LinearMonotonicFuzzyNumber.h"
 
 template <class FN>
 class ExpWeightedFuzzyNumberDecorator : public FuzzyNumber{

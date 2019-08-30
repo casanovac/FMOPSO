@@ -21,13 +21,13 @@
 #define BI_OBJECTIVENRP_BIOBJFUZZYNRPFITNESSFUNCTION_H
 
 
-#include "FuzzyFitnessFunction.h"
+#include "Fuzzy/FuzzyFitnessFunction.h"
 #include "BinaryParticle.h"
 #include "CostNRPAttribute.h"
-#include "ProfitNRPAttribute.h"
-#include "LinearMonotonicFuzzyNumber.h"
-#include "MinFuzzyTNorm.h"
-#include "ExpWeightedFuzzyNumberDecorator.h"
+#include "NRP/ProfitNRPAttribute.h"
+#include "Fuzzy/LinearMonotonicFuzzyNumber.h"
+#include "Fuzzy/MinFuzzyTNorm.h"
+#include "Fuzzy/ExpWeightedFuzzyNumberDecorator.h"
 #include "BiObjFuzzyNRPFitness.h"
 
 class BiObjFuzzyNRPFitnessFunction : public FuzzyFitnessFunction<BinaryParticle<BiObjFuzzyNRPFitness> > {

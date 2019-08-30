@@ -25,7 +25,7 @@
 #include <sstream>
 #include <core/moeoEvalFunc.h>
 #include "ExpWeightedFuzzyNumberDecorator.h"
-#include "AbstractFuzzyTNorm.h"
+#include "Fuzzy/AbstractFuzzyTNorm.h"
 #include "MinFuzzyTNorm.h"
 
 template<class MOEOT>

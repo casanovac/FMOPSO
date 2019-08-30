@@ -20,7 +20,7 @@
 #ifndef BI_OBJECTIVENRP_COSTNRPATTRIBUTE_H
 #define BI_OBJECTIVENRP_COSTNRPATTRIBUTE_H
 
-#include "NRPAttribute.h"
+#include "NRP/NRPAttribute.h"
 
 class CostNRPAttribute : public NRPAttribute {
 public:

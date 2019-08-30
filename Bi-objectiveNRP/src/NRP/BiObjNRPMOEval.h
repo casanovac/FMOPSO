@@ -23,9 +23,9 @@
 
 #include <core/moeoEvalFunc.h>
 #include "BiObjNRPVectorTraits.h"
-#include "NRPProblem.h"
+#include "NRP/NRPProblem.h"
 #include "CostNRPAttribute.h"
-#include "ProfitNRPAttribute.h"
+#include "NRP/ProfitNRPAttribute.h"
 #include "MOBinaryParticle.h"
 
 template <class MOEO>

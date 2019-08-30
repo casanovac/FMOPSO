@@ -23,7 +23,7 @@
 
 #include <eoEvalFunc.h>
 #include <fitness/moeoSingleObjectivization.h>
-#include "AbstractFuzzyTNorm.h"
+#include "Fuzzy/AbstractFuzzyTNorm.h"
 
 template <class POT>
 class FuzzyFitnessFunction : public /*moeoSingleObjectivization<POT>*/eoEvalFunc<POT> {

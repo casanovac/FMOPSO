@@ -5,7 +5,7 @@
 #include <boost/test/unit_test.hpp>
 #include <eo>
 #include <metric/moeoHyperVolumeMetric.h>
-#include <BiObjNRPVectorTraits.h>
+#include <NRP/BiObjNRPVectorTraits.h>
 
 std::vector<BiObjNRPObjectiveVector> getVector()
 {
